@@ -1,0 +1,40 @@
+/* src/styles/globals.css */
+
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 40s linear infinite;
+}
+
+.animate-icon-spin {
+  animation: icon-spin 40s linear infinite;
+}
+.tecnologia {
+  transition: all 0.3s ease-in-out;
+}
+
+.tecnologia:hover {
+  background-color: rgba(168, 85, 247, 0.2); /* violeta suave */
+  border-color: #a855f7; /* violeta brillante */
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
+  transform: scale(1.15);
+}
+
+

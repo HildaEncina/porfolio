@@ -1,0 +1,17 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh; /* ocupa toda la altura visible */
+  padding-top: 8rem; /* levanta un poco el contenido */
+  text-align: center;
+  
+}
+
+@media (max-width: 768px) {
+  .hero {
+    justify-content: flex-start;
+    padding-top: 6rem; /* para que no quede cortado por la navbar */
+  }
+}
